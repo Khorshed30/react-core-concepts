@@ -12,12 +12,15 @@ function App() {
 
 function Counter(props){
   const[count, setCount] =useState(50);
-  const increaseCount = () =>{
-      const newCount = count + 5;
-      setCount(newCount);
-  }
+  const increaseCount = () =>setCount(count + 5)
+  
+  
+  // const increaseCount = () =>{
+  //     const newCount = count + 5;
+  //     setCount(newCount);
+  // }
   return(
-    <div className='product'>
+    <div className='count'>
       <h1>Count:{count}</h1>
       <button onClick={increaseCount}>Increase</button>
     </div>

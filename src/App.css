@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+.product{
+  background-color: #61dafb;
+  color: rgb(252, 53, 34);
+  border: 2px solid rebeccapurple;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
